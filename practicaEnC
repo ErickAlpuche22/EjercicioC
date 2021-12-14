@@ -8,9 +8,9 @@ int main (int argc, char *argv[]){
     int vector[100];
     int i;
     int contador;
-    int tamaño = sizeof(vector) / sizeof(vector[0]);
+    int size = sizeof(vector) / sizeof(vector[0]);
 
-    for (i = 0; i < tamaño; i++){
+    for (i = 0; i < size; i++){
         vector [i] = rand () % 100 + 1;
     }
 
